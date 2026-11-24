@@ -1,0 +1,8 @@
+{
+  "name": "ALTA ENERGÍA 107.5",
+  "description": "Reproductor en vivo y programación oficial de ALTA ENERGÍA 107.5 FM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
