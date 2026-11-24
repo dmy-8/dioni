@@ -849,14 +849,14 @@
 
       // Schedule rendering
       var programs = [
-        { title: 'Despertar Alta Energía 107.5', host: 'Conducción en vivo', time: '06:00 – 11:00', period: 'mañana', days: 'Lunes a Viernes' },
-        { title: 'Máquina Musical', host: 'Selección Continua', time: '11:00 – 12:00', period: 'mañana', days: 'Todos los días' },
-        { title: 'Clásicos De La Hora Retro', host: 'Selección Continua', time: '12:00 – 14:00', period: 'tarde', days: 'Todos los días' },
+        { title: 'Despertar 107.5', host: 'Selección Continua', time: '06:00 – 11:00', period: 'mañana', days: 'Lunes a Viernes' },
+        { title: 'Máquina Musical', host: 'Conducción en vivo', time: '11:00 – 12:00', period: 'mañana', days: 'Todos los días' },
+        { title: 'Clásicos De La Hora Retro', host: '70s 80s & Más', time: '12:00 – 14:00', period: 'tarde', days: 'Todos los días' },
         { title: 'Electro Dance', host: 'Éxitos del Momento', time: '14:00 – 16:00', period: 'tarde', days: 'Todos los días' },
         { title: 'Pista Tras Pista', host: 'Dream Dance & Future Trance', time: '16:00 – 18:00', period: 'tarde', days: 'Todos los días' },
-        { title: 'Clásicos De La Hora Retro', host: 'Selección Continua', time: '18:00 – 20:00', period: 'noche', days: 'Todos los días' },
-        { title: 'Máquina Musical', host: 'Selección Continua', time: '21:00 – 23:00', period: 'noche', days: 'Todos los días' },
-        { title: 'Alta Energía 107.5', host: 'Conducción en vivo', time: '23:00', period: 'noche', days: 'Lunes a Viernes' }
+        { title: 'Clásicos De La Hora Retro', host: '70s 80s & Más', time: '18:00 – 20:00', period: 'noche', days: 'Todos los días' },
+        { title: 'Máquina Musical', host: 'Conducción en vivo', time: '21:00 – 23:00', period: 'noche', days: 'Todos los días' },
+        { title: 'Alta Energía 107.5', host: 'Selección Continua', time: '23:00', period: 'noche', days: 'Lunes a Viernes' }
       ];
       function renderSchedule(filter) {
         var list = filter === 'todos' ? programs : programs.filter(function (p) { return p.period === filter; });
